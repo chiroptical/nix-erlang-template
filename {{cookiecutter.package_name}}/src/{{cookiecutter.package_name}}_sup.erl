@@ -1,9 +1,9 @@
 %%%-------------------------------------------------------------------
-%% @doc {{ cookiecutter.project_name }} top level supervisor.
+%% @doc {{ cookiecutter.package_name }} top level supervisor.
 %% @end
 %%%-------------------------------------------------------------------
 
--module({{ cookiecutter.project_name }}_sup).
+-module({{ cookiecutter.package_name }}_sup).
 
 -behaviour(supervisor).
 
