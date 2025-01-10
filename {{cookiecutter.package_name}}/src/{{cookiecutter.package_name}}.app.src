@@ -1,0 +1,14 @@
+{application, {{ cookiecutter.project_name }}, [
+    {description, "An OTP application"},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {mod, {{{ cookiecutter.project_name }}_app, []}},
+    {applications, [
+        kernel,
+        stdlib
+    ]},
+    {env, []},
+    {modules, []},
+    {licenses, []},
+    {links, []}
+ ]}.
