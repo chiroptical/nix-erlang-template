@@ -16,12 +16,12 @@ nix develop nixpkgs#cookiecutter --command cookiecutter gh:chiroptical/nix-erlan
 You can install cookiecutter via [their directions][install-cookiecutter] and run,
 
 ```shell
-cookiecutter gh:chiroptical/nix-haskell-template
+cookiecutter gh:chiroptical/nix-erlang-template
 ```
 
 This will create a directory with the package name you specify in
 `cookiecutter`. If you `cd` into the directory, you'll see a scaffold for a
-Erlang flake project.
+Erlang rebar3 project with flake.
 
 ## Getting started
 
